@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.logo {
+    background-image: url("assets/logo.png");
+    background-size: cover;
+    height: 110px;
+    width: 180px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 55px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a:hover {
+    font-size: 1.04rem;
+}
+
+.header-icons {
+    width: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.hero-content {
+
+    font-size: 2rem;
+    margin: 30px 0;
+    align-content: center;
+}
+
+.hero-image img {
+    width: 80%;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #f5de12;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+
+}
+
+.box p {
+    padding: 10px 20px;
+    background-color: #f5de12;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin: 110px 0;
+}
+
+.about-content {
+
+    font-size: 1rem;
+    margin: 30px 80px;
+    align-content: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    margin: 126px 0;
+}
+
+.contact-content {
+
+    font-size: 1rem;
+    margin: 30px 80px;
+    align-content: center;
+}
+
+.contact-image img {
+    width: 60%;
+}
+.contact-icons ul li {
+    list-style: none;
+    justify-content: center;
+    margin: 0 23px;
+}
+
+.contact-icons ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.contact-icons ul li i {
+width: 50px;
+}
+.foot-panel{
+    background-color: #1b1f1f;
+    color: white;
+    height: 55px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.copy{
+    padding-top: 23px;
+}
